@@ -2,13 +2,15 @@
 Program to show my favorite aspects of C++ and OOP such as dynamic memory allocation, operator overloading, inheritance, abstraction, and the factory design pattern.
 
 1. To use program:
+   (Sample main program included)
    
    After creating a Library object, you can simply call 
-   buildLibrary() and pass in a file containing book data(bookdata.txt),
-   and a file containing the patron data(patrondata.txt). 
+   buildLibrary() and pass in a file containing book data,
+   and a file containing the patron data. 
+   
    Library::buildLibrary("bookdata.txt", "patrondata.txt");
    
-   process library commands by passing a command file into
+   Process library commands by passing a command file into
    Library::processCommands("commmanddata.txt");
    
    
